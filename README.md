@@ -1,24 +1,21 @@
-# BOILRPLATE-WEBPACK
+# tp des ECF Javascript Popschool
 
-2018, Loïc Pennequin & Philippe Pary
+2018, Yann Duchateau
 
-Environnement de développement simplifié pour les étudiants de Pop School Lens dans le cadre de l'apprentissage de webpack.
+##description 
+
+application de gestion d'eleves par promotions
+
+##technologies utilisees 
+
+lisez le code
 
 ## Installation
 
-`npm install` pour lancer l’installation des dépendances
+`npm install`
 
-puis
+##usage 
 
-`rm -R .git` pour remettre à zéro la gestion par git
+Developement: `npm run dev` (ouvre un navigateur avec du liveload)
 
-## Commandes
-
-`npm run dev` : lance le serveur de développement et ouvre votre site dans le navigateur
-
-`npm run build` : construit votre site dans le dossier dist
-
-## TODO
-
-[] ESLint config
-[] Units tests (Jasmine, Jext …)
+Production: `npm run build` (cree les fichiers a publier dans `/dist`)
